@@ -2,7 +2,6 @@
 #include <unistd.h>
 /** 
 *main - Entry point
-*
 *Description: print Dora's quote
 *Return: Always 1 (Success)
 */
