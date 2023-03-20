@@ -15,6 +15,5 @@ letter++;
 }
 while (
 (letter <= 'z')
-); }
-putchar('\n');
+putchar('\n'));
 	return (0); }
