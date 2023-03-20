@@ -13,8 +13,8 @@ do {
 putchar(letter);
 letter++;
 }
-while
-((letter <= 'z'));
+while(
+(letter <= 'z')
+);
 putchar('\n');
-(
-return (0); }
+	return (0); }
