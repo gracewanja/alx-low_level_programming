@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - Prints the alphabet in lowercase,except for q and e
+* main - A program that prints the alphabet in lowercase- uppercase
 *
 *Return: Always 0
 */
@@ -8,17 +8,14 @@ int main()
 {
 	 int i;
 
-    // Print lowercase letters
     for (i = 0; i < 26; i++) {
         putchar('a' + i);
     }
 
-    // Print uppercase letters
     for (i = 0; i < 26; i++) {
         putchar('A' + i);
     }
 
-    // Print new line
     putchar('\n');
 
     return 0;
