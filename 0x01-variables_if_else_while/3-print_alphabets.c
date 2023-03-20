@@ -6,12 +6,20 @@
 */
 int main(void)
 {
-	char letter;
-	for (letter = 'a' ; letter <= 'z' ; letter++)
-	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
-	}
-	putchar("\n");
-	return (0); }
+	 int i;
 
+    // Print lowercase letters
+    for (i = 0; i < 26; i++) {
+        putchar('a' + i);
+    }
+
+    // Print uppercase letters
+    for (i = 0; i < 26; i++) {
+        putchar('A' + i);
+    }
+
+    // Print new line
+    putchar('\n');
+
+    return 0;
+}
