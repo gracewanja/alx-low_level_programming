@@ -4,7 +4,7 @@
  *
  * Description: prints the number 1 - 100
  * Fizz for multiples of 3, Buzz for multiples of 5,
- * And FizzBuzz for multiples of both 5 and 3
+ * FizzBuzz for multiples of both 5 and 3
  *
  * Return: Always 0
  */
@@ -20,7 +20,7 @@ int i;
 		else if (i % 5 == 0)
 			printf("Buzz ");
 		else
-			printf("%d", i);
+			printf("%d ", i);
 	}
 	printf("\n");
 	return (0); }
