@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
  * main - adds positive numbers
  * @argc: argument count
  * @argv: Array of argument
- *
  * Return: 0 if successful 1 otherwise
  */
 int main(int argc, char *argv[])
