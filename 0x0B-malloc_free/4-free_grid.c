@@ -1,21 +1,20 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * free_grid - frees a 2 dimensional grid previously created by your alloc_grid function
+ * free_grid - frees 2 dimensional grid created by your alloc_grid function
  * @grid: input correct value
- * @height: of the grid
+ * @height: height of the grid
  * Return: 0
  */
 
 void free_grid(int **grid, int height)
 {
-	int i;
+	int n;
 
-	for (i = 0; i < height; i++) 
+	for (n = 0; n < height; n++)
 	{
-		free(grid[i]);
+		free(grid[n]);
 	}
 
 	free(grid);
 }
-
